@@ -1,5 +1,5 @@
 ---
-templateKey: about-page
+templateKey: services
 title: About our values
 ---
 
@@ -9,7 +9,7 @@ This is a test ofr what exactly?
 
 ### Single origin
 
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Or a second look
 
 ### Sustainable farming
 
