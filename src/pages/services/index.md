@@ -1,5 +1,5 @@
 ---
-templateKey: about-page
+templateKey: services-page
 title: About our values
 ---
 
