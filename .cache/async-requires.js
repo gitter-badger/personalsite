@@ -4,8 +4,8 @@ const preferDefault = m => m && m.default || m
 exports.components = {
   "component---src-templates-about-page-js": () => import("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/about-page.js" /* webpackChunkName: "component---src-templates-about-page-js" */),
   "component---src-templates-blog-post-js": () => import("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/blog-post.js" /* webpackChunkName: "component---src-templates-blog-post-js" */),
-  "component---src-templates-resource-page-js": () => import("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/resource-page.js" /* webpackChunkName: "component---src-templates-resource-page-js" */),
   "component---src-templates-product-page-js": () => import("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/product-page.js" /* webpackChunkName: "component---src-templates-product-page-js" */),
+  "component---src-templates-resource-page-js": () => import("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/resource-page.js" /* webpackChunkName: "component---src-templates-resource-page-js" */),
   "component---src-templates-tags-js": () => import("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/tags.js" /* webpackChunkName: "component---src-templates-tags-js" */),
   "component---cache-dev-404-page-js": () => import("/home/john/Documents/Projects/gitlab/peronalsite/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("/home/john/Documents/Projects/gitlab/peronalsite/src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),

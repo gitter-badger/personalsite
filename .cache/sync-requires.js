@@ -5,8 +5,8 @@ const preferDefault = m => m && m.default || m
 exports.components = {
   "component---src-templates-about-page-js": preferDefault(require("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/about-page.js")),
   "component---src-templates-blog-post-js": preferDefault(require("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/blog-post.js")),
-  "component---src-templates-resource-page-js": preferDefault(require("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/resource-page.js")),
   "component---src-templates-product-page-js": preferDefault(require("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/product-page.js")),
+  "component---src-templates-resource-page-js": preferDefault(require("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/resource-page.js")),
   "component---src-templates-tags-js": preferDefault(require("/home/john/Documents/Projects/gitlab/peronalsite/src/templates/tags.js")),
   "component---cache-dev-404-page-js": preferDefault(require("/home/john/Documents/Projects/gitlab/peronalsite/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/home/john/Documents/Projects/gitlab/peronalsite/src/pages/404.js")),
