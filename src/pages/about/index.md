@@ -1,24 +1,26 @@
 ---
 templateKey: about-page
-title: About our values
+title: About Me
 ---
 
-### Shade-grown coffee
+# Freelance Web Developer
 
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident s
+I like to build useful things for the internet. There has never been a better opprtunity for people to pursue the goals online. Whether this is the next big thing that will change the world. Or a simple Mom and Pop brochure Website. Those small websites and the people working in those business are what makes the world go around.
 
-### Single origin
+## Open Source Advocate
 
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+The techonlogocal revolution of the 2oth centry produced some of the most noval and inovative ways of looking at the world. Open source techonlogy and the comunities that sprang up around them, especially around the web has had a huge impact for the good on the some of the most impovereshed locations. I try and use and contribute to open source technoligy as mush as is feasable. Not only does open source have a drastic reduction in cost overhead for projects big and small. Open source allows Developers and business to leverage a truly global comunity for high impact complicated tech to be used in even the smallest business stack.
 
-### Sustainable farming
+## Small Business Evangelist
 
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Small Mom and Pop business is what has made great comunities and families for most of modern history. I grew up in one such family and understand the risk and reward of these types of business. I understand the drive and long hours needed to make a business be successful. But I also know the risks and down sides to those hours. I leverage big business technology for my clients in new and inovatives ways to allow those same business to serve their comunities to the best available standards. I am allways looking for best and britest business to partner with.
 
-### Direct sourcing
+## Round Earther
 
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+The earth is round. This cannot be avoided while still maintaining a grasp of reality. Most things in life really fall into a grey area of stuff we cannot be 100% sure about. Only make a best educated guess based on the information available to us.
 
-### Reinvest profits
+I find it facinating that in the age of information people can still hold beliefs in such things as the Flat Earth. It is their right to do so. i would never disrespect or silence people holding views that are different than my own however mad it may seem. But in my down time I do enjoy persuing crazy conspiracy theory type stuff. The people behind it and what possible reasons they would have tp believe in something so obviosly wrong. I believe it helps me to have a better perspective on examining my own belief system. Maybe I believe something really stupid and wrong but just don't know yet?
 
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+## Dog Person
+
+Dogs are the perfect example of mans ability to conquor and then responsibly steward his environment. They are also the perfect example of why that is not always a good idea.
