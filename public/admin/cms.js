@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "0f619a0e4fa4a0c85f98";
+/******/ 	var hotCurrentHash = "697cb3ec308963f6b9e8";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1716,8 +1716,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_about_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(24);
-var _jsxFileName = "/home/john/Documents/Projects/gitlab/peronalsite/src/cms/preview-templates/AboutPagePreview.js";
-
 (function () {
   var enterModule = __webpack_require__(7).enterModule;
 
@@ -1733,12 +1731,7 @@ var AboutPagePreview = function AboutPagePreview(_ref) {
       widgetFor = _ref.widgetFor;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_templates_about_page__WEBPACK_IMPORTED_MODULE_2__["AboutPageTemplate"], {
     title: entry.getIn(['data', 'title']),
-    content: widgetFor('body'),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+    content: widgetFor('body')
   });
 };
 
@@ -1761,8 +1754,8 @@ var _default = AboutPagePreview;
     return;
   }
 
-  reactHotLoader.register(AboutPagePreview, "AboutPagePreview", "/home/john/Documents/Projects/gitlab/peronalsite/src/cms/preview-templates/AboutPagePreview.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/cms/preview-templates/AboutPagePreview.js");
+  reactHotLoader.register(AboutPagePreview, "AboutPagePreview", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/cms/preview-templates/AboutPagePreview.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/cms/preview-templates/AboutPagePreview.js");
   leaveModule(module);
 })();
 
@@ -6696,10 +6689,10 @@ var aboutPageQuery = "3047988929";
     return;
   }
 
-  reactHotLoader.register(AboutPageTemplate, "AboutPageTemplate", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/about-page.js");
-  reactHotLoader.register(AboutPage, "AboutPage", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/about-page.js");
-  reactHotLoader.register(aboutPageQuery, "aboutPageQuery", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/about-page.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/about-page.js");
+  reactHotLoader.register(AboutPageTemplate, "AboutPageTemplate", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/about-page.js");
+  reactHotLoader.register(AboutPage, "AboutPage", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/about-page.js");
+  reactHotLoader.register(aboutPageQuery, "aboutPageQuery", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/about-page.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/about-page.js");
   leaveModule(module);
 })();
 
@@ -6717,11 +6710,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(26);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(35);
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(152);
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(151);
 /* harmony import */ var _all_sass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(153);
 /* harmony import */ var _all_sass__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_all_sass__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Layout.js";
-
 (function () {
   var enterModule = __webpack_require__(7).enterModule;
 
@@ -6736,38 +6727,9 @@ var _jsxFileName = "/home/john/Documents/Projects/gitlab/peronalsite/src/compone
 
 var TemplateWrapper = function TemplateWrapper(_ref) {
   var children = _ref.children;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    title: "Gitlab Netlifly Test Site",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    title: "Gitlab Netlifly Test Site"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
 };
 
 var _default = TemplateWrapper;
@@ -6783,8 +6745,8 @@ var _default = TemplateWrapper;
     return;
   }
 
-  reactHotLoader.register(TemplateWrapper, "TemplateWrapper", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Layout.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Layout.js");
+  reactHotLoader.register(TemplateWrapper, "TemplateWrapper", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Layout.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Layout.js");
   leaveModule(module);
 })();
 
@@ -8040,9 +8002,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(36);
 /* harmony import */ var _img_github_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(150);
 /* harmony import */ var _img_github_icon_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_img_github_icon_svg__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _img_logo_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(151);
-/* harmony import */ var _img_logo_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_img_logo_svg__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Navbar.js";
+var _jsxFileName = "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Navbar.js";
 
 (function () {
   var enterModule = __webpack_require__(7).enterModule;
@@ -8052,8 +8012,7 @@ var _jsxFileName = "/home/john/Documents/Projects/gitlab/peronalsite/src/compone
 
 
 
-
-
+ // import logo from '../img/logo.svg';
 
 var Navbar = function Navbar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
@@ -8085,29 +8044,18 @@ var Navbar = function Navbar() {
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
-    className: "image",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    class: "has-text-weight-bold is-size-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _img_logo_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
-    alt: "Kaldi",
-    style: {
-      width: '88px'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "John Junkins"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "navbar-start",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -8115,7 +8063,7 @@ var Navbar = function Navbar() {
     to: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -8123,7 +8071,7 @@ var Navbar = function Navbar() {
     to: "/services",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, "Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -8131,7 +8079,7 @@ var Navbar = function Navbar() {
     to: "/products",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }, "Products"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -8139,7 +8087,7 @@ var Navbar = function Navbar() {
     to: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, "Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -8147,7 +8095,7 @@ var Navbar = function Navbar() {
     to: "/contact/examples",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, "Form Examples"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -8155,31 +8103,31 @@ var Navbar = function Navbar() {
     to: "/resource",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: this
   }, "Resources")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "navbar-end",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "navbar-item",
-    href: "https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate",
+    href: "https://github.com/geoklown",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -8187,7 +8135,32 @@ var Navbar = function Navbar() {
     alt: "Github",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 45
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "navbar-item",
+    href: "https://github.com/geoklown",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _img_github_icon_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: "Github",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
     },
     __self: this
   }))))));
@@ -8206,8 +8179,8 @@ var _default = Navbar;
     return;
   }
 
-  reactHotLoader.register(Navbar, "Navbar", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Navbar.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Navbar.js");
+  reactHotLoader.register(Navbar, "Navbar", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Navbar.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Navbar.js");
   leaveModule(module);
 })();
 
@@ -8292,9 +8265,9 @@ function graphql() {
     return;
   }
 
-  reactHotLoader.register(StaticQueryContext, "StaticQueryContext", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(StaticQuery, "StaticQuery", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/gatsby-browser-entry.js");
-  reactHotLoader.register(graphql, "graphql", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQueryContext, "StaticQueryContext", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(StaticQuery, "StaticQuery", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/gatsby-browser-entry.js");
+  reactHotLoader.register(graphql, "graphql", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/gatsby-browser-entry.js");
   leaveModule(module);
 })();
 
@@ -9416,7 +9389,7 @@ var _default = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext;
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/create-react-context.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/create-react-context.js");
   leaveModule(module);
 })();
 
@@ -9867,7 +9840,7 @@ if (true) {
     return;
   }
 
-  reactHotLoader.register(preferDefault, "preferDefault", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/public-page-renderer.js");
+  reactHotLoader.register(preferDefault, "preferDefault", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/public-page-renderer.js");
   leaveModule(module);
 })();
 
@@ -9928,8 +9901,8 @@ var _default = DevPageRenderer;
     return;
   }
 
-  reactHotLoader.register(DevPageRenderer, "DevPageRenderer", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/public-page-renderer-dev.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/public-page-renderer-dev.js");
+  reactHotLoader.register(DevPageRenderer, "DevPageRenderer", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/public-page-renderer-dev.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/public-page-renderer-dev.js");
   leaveModule(module);
 })();
 
@@ -9940,7 +9913,7 @@ var _default = DevPageRenderer;
 /* 51 */
 /***/ (function(module) {
 
-module.exports = [{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-templates-about-page-js","jsonName":"about-f34","path":"/about/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"blog-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-94c","path":"/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"blog-2017-01-04-a-beginners-guide-to-brewing-with-chemex-19c","path":"/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"blog-2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week-850","path":"/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"blog-2018-11-19-blahblah-blah-c63","path":"/blog/2018-11-19-blahblah-blah/"},{"componentChunkName":"component---src-pages-contact-index-js","jsonName":"contact-26a","path":"/contact/"},{"componentChunkName":"component---src-pages-contact-examples-js","jsonName":"contact-examples-142","path":"/contact/examples/"},{"componentChunkName":"component---src-pages-contact-file-upload-js","jsonName":"contact-file-upload-b1a","path":"/contact/file-upload/"},{"componentChunkName":"component---src-pages-contact-thanks-js","jsonName":"contact-thanks-367","path":"/contact/thanks/"},{"componentChunkName":"component---cache-dev-404-page-js","jsonName":"dev-404-page-5f9","path":"/dev-404-page/"},{"componentChunkName":"component---src-templates-product-page-js","jsonName":"products-6ef","path":"/products/"},{"componentChunkName":"component---src-templates-resource-page-js","jsonName":"resource-6aa","path":"/resource/"},{"componentChunkName":"component---src-templates-services-js","jsonName":"services-522","path":"/services/"},{"componentChunkName":"component---src-pages-tags-index-js","jsonName":"tags-275","path":"/tags/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-brewing-d36","path":"/tags/brewing/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-chemex-13a","path":"/tags/chemex/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-flavor-980","path":"/tags/flavor/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-green-beans-dce","path":"/tags/green-beans/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-jamaica-ed8","path":"/tags/jamaica/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-qhtrqerhtqerhtqerhqerbeqrgerr-99a","path":"/tags/qhtrqerhtqerhtqerhqerbeqrgerr/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-tasting-3e1","path":"/tags/tasting/"}];
+module.exports = [{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-templates-about-page-js","jsonName":"about-f34","path":"/about/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"blog-2016-12-17-making-sense-of-the-scaas-new-flavor-wheel-94c","path":"/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"blog-2017-01-04-a-beginners-guide-to-brewing-with-chemex-19c","path":"/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"blog-2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week-850","path":"/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week/"},{"componentChunkName":"component---src-templates-blog-post-js","jsonName":"blog-2018-11-19-blahblah-blah-c63","path":"/blog/2018-11-19-blahblah-blah/"},{"componentChunkName":"component---src-pages-contact-index-js","jsonName":"contact-26a","path":"/contact/"},{"componentChunkName":"component---src-pages-contact-examples-js","jsonName":"contact-examples-142","path":"/contact/examples/"},{"componentChunkName":"component---src-pages-contact-file-upload-js","jsonName":"contact-file-upload-b1a","path":"/contact/file-upload/"},{"componentChunkName":"component---src-pages-contact-thanks-js","jsonName":"contact-thanks-367","path":"/contact/thanks/"},{"componentChunkName":"component---cache-dev-404-page-js","jsonName":"dev-404-page-5f9","path":"/dev-404-page/"},{"componentChunkName":"component---src-templates-product-page-js","jsonName":"products-6ef","path":"/products/"},{"componentChunkName":"component---src-templates-resource-page-js","jsonName":"resource-6aa","path":"/resource/"},{"componentChunkName":"component---src-templates-services-page-js","jsonName":"services-522","path":"/services/"},{"componentChunkName":"component---src-pages-tags-index-js","jsonName":"tags-275","path":"/tags/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-brewing-d36","path":"/tags/brewing/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-chemex-13a","path":"/tags/chemex/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-flavor-980","path":"/tags/flavor/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-green-beans-dce","path":"/tags/green-beans/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-jamaica-ed8","path":"/tags/jamaica/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-qhtrqerhtqerhtqerhqerbeqrgerr-99a","path":"/tags/qhtrqerhtqerhtqerhqerbeqrgerr/"},{"componentChunkName":"component---src-templates-tags-js","jsonName":"tags-tasting-3e1","path":"/tags/tasting/"}];
 
 /***/ }),
 /* 52 */
@@ -10335,39 +10308,39 @@ var _default = queue;
     return;
   }
 
-  reactHotLoader.register(preferDefault, "preferDefault", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(devGetPageData, "devGetPageData", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(inInitialRender, "inInitialRender", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(hasFetched, "hasFetched", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(syncRequires, "syncRequires", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(asyncRequires, "asyncRequires", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(jsonDataPaths, "jsonDataPaths", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(fetchHistory, "fetchHistory", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(fetchingPageResourceMapPromise, "fetchingPageResourceMapPromise", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(fetchedPageResourceMap, "fetchedPageResourceMap", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(apiRunner, "apiRunner", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(failedPaths, "failedPaths", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(MAX_HISTORY, "MAX_HISTORY", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(jsonPromiseStore, "jsonPromiseStore", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(fetchPageResourceMap, "fetchPageResourceMap", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(createJsonURL, "createJsonURL", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(createComponentUrls, "createComponentUrls", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(fetchResource, "fetchResource", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(prefetchResource, "prefetchResource", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(getResourceModule, "getResourceModule", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(appearsOnLine, "appearsOnLine", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(handleResourceLoadError, "handleResourceLoadError", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(onPrefetchPathname, "onPrefetchPathname", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(onPostPrefetchPathname, "onPostPrefetchPathname", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(findPage, "findPage", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(pathScriptsCache, "pathScriptsCache", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(prefetchTriggered, "prefetchTriggered", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(prefetchCompleted, "prefetchCompleted", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(disableCorePrefetching, "disableCorePrefetching", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(queue, "queue", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(setApiRunnerForLoader, "setApiRunnerForLoader", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(publicLoader, "publicLoader", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/loader.js");
+  reactHotLoader.register(preferDefault, "preferDefault", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(devGetPageData, "devGetPageData", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(inInitialRender, "inInitialRender", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(hasFetched, "hasFetched", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(syncRequires, "syncRequires", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(asyncRequires, "asyncRequires", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(jsonDataPaths, "jsonDataPaths", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(fetchHistory, "fetchHistory", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(fetchingPageResourceMapPromise, "fetchingPageResourceMapPromise", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(fetchedPageResourceMap, "fetchedPageResourceMap", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(apiRunner, "apiRunner", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(failedPaths, "failedPaths", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(MAX_HISTORY, "MAX_HISTORY", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(jsonPromiseStore, "jsonPromiseStore", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(fetchPageResourceMap, "fetchPageResourceMap", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(createJsonURL, "createJsonURL", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(createComponentUrls, "createComponentUrls", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(fetchResource, "fetchResource", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(prefetchResource, "prefetchResource", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(getResourceModule, "getResourceModule", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(appearsOnLine, "appearsOnLine", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(handleResourceLoadError, "handleResourceLoadError", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(onPrefetchPathname, "onPrefetchPathname", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(onPostPrefetchPathname, "onPostPrefetchPathname", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(findPage, "findPage", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(pathScriptsCache, "pathScriptsCache", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(prefetchTriggered, "prefetchTriggered", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(prefetchCompleted, "prefetchCompleted", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(disableCorePrefetching, "disableCorePrefetching", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(queue, "queue", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(setApiRunnerForLoader, "setApiRunnerForLoader", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(publicLoader, "publicLoader", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/loader.js");
   leaveModule(module);
 })();
 
@@ -12265,8 +12238,8 @@ var _default = function _default(pages, pathPrefix) {
     return;
   }
 
-  reactHotLoader.register(pageCache, "pageCache", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/find-page.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/find-page.js");
+  reactHotLoader.register(pageCache, "pageCache", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/find-page.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/find-page.js");
   leaveModule(module);
 })();
 
@@ -12671,7 +12644,7 @@ var _default = function _default(str, prefix) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/strip-prefix.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/strip-prefix.js");
   leaveModule(module);
 })();
 
@@ -12706,8 +12679,8 @@ var _default = emitter;
     return;
   }
 
-  reactHotLoader.register(emitter, "emitter", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/emitter.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/emitter.js");
+  reactHotLoader.register(emitter, "emitter", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/emitter.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/emitter.js");
   leaveModule(module);
 })();
 
@@ -12885,13 +12858,13 @@ var _default = prefetch;
     return;
   }
 
-  reactHotLoader.register(support, "support", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/prefetch.js");
-  reactHotLoader.register(linkPrefetchStrategy, "linkPrefetchStrategy", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/prefetch.js");
-  reactHotLoader.register(xhrPrefetchStrategy, "xhrPrefetchStrategy", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/prefetch.js");
-  reactHotLoader.register(supportedPrefetchStrategy, "supportedPrefetchStrategy", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/prefetch.js");
-  reactHotLoader.register(preFetched, "preFetched", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/prefetch.js");
-  reactHotLoader.register(prefetch, "prefetch", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/prefetch.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/prefetch.js");
+  reactHotLoader.register(support, "support", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/prefetch.js");
+  reactHotLoader.register(linkPrefetchStrategy, "linkPrefetchStrategy", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/prefetch.js");
+  reactHotLoader.register(xhrPrefetchStrategy, "xhrPrefetchStrategy", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/prefetch.js");
+  reactHotLoader.register(supportedPrefetchStrategy, "supportedPrefetchStrategy", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/prefetch.js");
+  reactHotLoader.register(preFetched, "preFetched", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/prefetch.js");
+  reactHotLoader.register(prefetch, "prefetch", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/prefetch.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/prefetch.js");
   leaveModule(module);
 })();
 
@@ -13036,18 +13009,18 @@ function unregisterPath(path) {
     return;
   }
 
-  reactHotLoader.register(socket, "socket", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(staticQueryData, "staticQueryData", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(pageQueryData, "pageQueryData", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(isInitialized, "isInitialized", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(getStaticQueryData, "getStaticQueryData", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(getPageQueryData, "getPageQueryData", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(getIsInitialized, "getIsInitialized", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(socketIo, "socketIo", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(inFlightGetPageDataPromiseCache, "inFlightGetPageDataPromiseCache", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(getPageData, "getPageData", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(registerPath, "registerPath", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
-  reactHotLoader.register(unregisterPath, "unregisterPath", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(socket, "socket", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(staticQueryData, "staticQueryData", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(pageQueryData, "pageQueryData", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(isInitialized, "isInitialized", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(getStaticQueryData, "getStaticQueryData", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(getPageQueryData, "getPageQueryData", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(getIsInitialized, "getIsInitialized", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(socketIo, "socketIo", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(inFlightGetPageDataPromiseCache, "inFlightGetPageDataPromiseCache", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(getPageData, "getPageData", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(registerPath, "registerPath", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
+  reactHotLoader.register(unregisterPath, "unregisterPath", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/socketIo.js");
   leaveModule(module);
 })();
 
@@ -13191,10 +13164,10 @@ var reportError = function reportError(errorID, error) {
     return;
   }
 
-  reactHotLoader.register(errorMap, "errorMap", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/error-overlay-handler.js");
-  reactHotLoader.register(handleErrorOverlay, "handleErrorOverlay", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/error-overlay-handler.js");
-  reactHotLoader.register(clearError, "clearError", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/error-overlay-handler.js");
-  reactHotLoader.register(reportError, "reportError", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/error-overlay-handler.js");
+  reactHotLoader.register(errorMap, "errorMap", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/error-overlay-handler.js");
+  reactHotLoader.register(handleErrorOverlay, "handleErrorOverlay", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/error-overlay-handler.js");
+  reactHotLoader.register(clearError, "clearError", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/error-overlay-handler.js");
+  reactHotLoader.register(reportError, "reportError", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/error-overlay-handler.js");
   leaveModule(module);
 })();
 
@@ -19104,9 +19077,9 @@ var _default = JSONStore;
     return;
   }
 
-  reactHotLoader.register(getPathFromProps, "getPathFromProps", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/json-store.js");
-  reactHotLoader.register(JSONStore, "JSONStore", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/json-store.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/json-store.js");
+  reactHotLoader.register(getPathFromProps, "getPathFromProps", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/json-store.js");
+  reactHotLoader.register(JSONStore, "JSONStore", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/json-store.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/json-store.js");
   leaveModule(module);
 })();
 
@@ -19210,8 +19183,8 @@ var _default = PageRenderer;
     return;
   }
 
-  reactHotLoader.register(PageRenderer, "PageRenderer", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/page-renderer.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/page-renderer.js");
+  reactHotLoader.register(PageRenderer, "PageRenderer", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/page-renderer.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/page-renderer.js");
   leaveModule(module);
 })();
 
@@ -19306,9 +19279,9 @@ exports.apiRunnerAsync = function (api, args, defaultReturn) {
     return;
   }
 
-  reactHotLoader.register(getResourcesForPathname, "getResourcesForPathname", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/api-runner-browser.js");
-  reactHotLoader.register(getResourcesForPathnameSync, "getResourcesForPathnameSync", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/api-runner-browser.js");
-  reactHotLoader.register(getResourceURLsForPathname, "getResourceURLsForPathname", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/api-runner-browser.js");
+  reactHotLoader.register(getResourcesForPathname, "getResourcesForPathname", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/api-runner-browser.js");
+  reactHotLoader.register(getResourcesForPathnameSync, "getResourcesForPathnameSync", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/api-runner-browser.js");
+  reactHotLoader.register(getResourceURLsForPathname, "getResourceURLsForPathname", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/api-runner-browser.js");
   leaveModule(module);
 })();
 
@@ -19323,7 +19296,7 @@ module.exports = [{
   plugin: __webpack_require__(147),
   options: {
     "plugins": [],
-    "modulePath": "/home/john/Documents/Projects/gitlab/peronalsite/src/cms/cms.js"
+    "modulePath": "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/cms/cms.js"
   }
 }];
 
@@ -19413,7 +19386,7 @@ function parsePath(path) {
     return;
   }
 
-  reactHotLoader.register(parsePath, "parsePath", "/home/john/Documents/Projects/gitlab/peronalsite/.cache/parse-path.js");
+  reactHotLoader.register(parsePath, "parsePath", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/.cache/parse-path.js");
   leaveModule(module);
 })();
 
@@ -19428,12 +19401,6 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 
 /***/ }),
 /* 151 */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTA5IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpmaWdtYT0iaHR0cDovL3d3dy5maWdtYS5jb20vZmlnbWEvbnMiPjx0aXRsZT5Mb2dvPC90aXRsZT48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTQ3MCkiIGZpZ21hOnR5cGU9ImNhbnZhcyI+PGcgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIgZmlnbWE6dHlwZT0idmVjdG9yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDcwKSIgZmlsbD0iI2Y0MCI+PHVzZSB4bGluazpocmVmPSIjYiIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIvPjx1c2UgeGxpbms6aHJlZj0iI2MiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpub3JtYWwiLz48dXNlIHhsaW5rOmhyZWY9IiNkIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6bm9ybWFsIi8+PHVzZSB4bGluazpocmVmPSIjZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIvPjx1c2UgeGxpbms6aHJlZj0iI2YiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpub3JtYWwiLz48L2c+PC9nPjxkZWZzPjxwYXRoIGlkPSJiIiBkPSJNMjIuNzM1IDIzLjE3MWMuMjgzLjMyMy4wNTMuODI5LS4zNzYuODI5aC01LjkwN2MtLjI4NSAwLS41NTYtLjEyMS0uNzQ1LS4zMzNsLTkuNDE0LTEwLjUyNnYxMC4zNmMwIC4yNzYtLjIyNC41LS41LjVoLTUuMjkzYy0uMjc2IDAtLjUtLjIyNC0uNS0uNXYtMjNjMC0uMjc2LjIyNC0uNS41LS41aDUuMjkzYy4yNzYgMCAuNS4yMjQuNS41djkuODE1bDkuMTQxLTkuOTljLjE5LS4yMDcuNDU3LS4zMjUuNzM4LS4zMjVoNS43NjJjLjQzNyAwIC42NjQuNTIxLjM2Ni44NDFsLTkuODUxIDEwLjU2MyAxMC4yODcgMTEuNzY3eiIvPjxwYXRoIGlkPSJjIiBkPSJNNDUuOTkxIDI0Yy0uMTk5IDAtLjM4LS4xMTgtLjQ1OS0uMzAxbC0yLjAyNC00LjY2OWgtMTAuNjdsLTIuMDI0IDQuNjY5Yy0uMDc5LjE4My0uMjU5LjMwMS0uNDU5LjMwMWgtNS4yMTJjLS4zNjYgMC0uNjA4LS4zODEtLjQ1My0uNzEybDEwLjc4Mi0yM2MuMDgyLS4xNzYuMjU5LS4yODguNDUzLS4yODhoNC4zNThjLjE5NCAwIC4zNy4xMTIuNDUzLjI4N2wxMC44MTUgMjNjLjE1Ni4zMzItLjA4Ni43MTMtLjQ1Mi43MTNoLTUuMTA4em0tMTEuMTM1LTkuNjY4aDYuNjM1bC0zLjMxNy03LjY5NC0zLjMxNyA3LjY5NHoiLz48cGF0aCBpZD0iZCIgZD0iTTU1LjUyNSAyNGMtLjI3NiAwLS41LS4yMjQtLjUtLjV2LTIzYzAtLjI3Ni4yMjQtLjUuNS0uNWg1LjI5M2MuMjc2IDAgLjUuMjI0LjUuNXYxOC40MjhoOS43NTljLjI3NiAwIC41LjIyNC41LjV2NC4wNzJjMCAuMjc2LS4yMjQuNS0uNS41aC0xNS41NTJ6Ii8+PHBhdGggaWQ9ImUiIGQ9Ik03NS4yNzkuNWMwLS4yNzYuMjI0LS41LjUtLjVoOS4zMTVjMi42NjcgMCA0Ljk1OS40NzcgNi44NzQgMS40MyAxLjkzOC45NTMgMy40MiAyLjMzOCA0LjQ0NiA0LjE1MyAxLjAyNiAxLjc5MyAxLjUzOSAzLjkyNiAxLjUzOSA2LjQgMCAyLjQ5Ni0uNTEzIDQuNjUyLTEuNTM5IDYuNDY4LTEuMDAzIDEuNzkzLTIuNDc0IDMuMTY2LTQuNDEyIDQuMTE5LTEuOTE1Ljk1My00LjIxOCAxLjQzLTYuOTA4IDEuNDNoLTkuMzE1Yy0uMjc2IDAtLjUtLjIyNC0uNS0uNXYtMjN6bTkuMzcgMTguNDYyYzIuMzcxIDAgNC4xMzgtLjU3OSA1LjMwMS0xLjczNiAxLjE2My0xLjE1NyAxLjc0NC0yLjkwNSAxLjc0NC01LjI0MiAwLTIuMzM4LS41ODEtNC4wNzQtMS43NDQtNS4yMDktMS4xNjMtMS4xNTctMi45My0xLjczNi01LjMwMS0xLjczNmgtMy4wNzh2MTMuOTIzaDMuMDc4eiIvPjxwYXRoIGlkPSJmIiBkPSJNMTAyLjkxMyAyNGMtLjI3NiAwLS41LS4yMjQtLjUtLjV2LTIzYzAtLjI3Ni4yMjQtLjUuNS0uNWg1LjI5M2MuMjc2IDAgLjUuMjI0LjUuNXYyM2MwIC4yNzYtLjIyNC41LS41LjVoLTUuMjkzeiIvPjwvZGVmcz48L3N2Zz4K"
-
-/***/ }),
-/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19443,10 +19410,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(36);
 /* harmony import */ var _img_github_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(150);
 /* harmony import */ var _img_github_icon_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_img_github_icon_svg__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _img_logo_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(151);
+/* harmony import */ var _img_logo_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(152);
 /* harmony import */ var _img_logo_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_img_logo_svg__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Footer.js";
-
 (function () {
   var enterModule = __webpack_require__(7).enterModule;
 
@@ -19460,131 +19425,51 @@ var _jsxFileName = "/home/john/Documents/Projects/gitlab/peronalsite/src/compone
 
 var Footer = function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
-    className: "footer is-transparent",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+    className: "footer is-transparent"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
+    className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-brand",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+    className: "footer-brand"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/",
-    className: "footer-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
+    className: "footer-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
-    className: "image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
+    className: "image"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _img_logo_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
     alt: "Kaldi",
     style: {
       width: '88px'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
+    }
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-start",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
+    className: "footer-start"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "footer-item",
-    to: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
+    to: "/about"
   }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "footer-item",
-    to: "/products",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
+    to: "/products"
   }, "Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "footer-item",
-    to: "/contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
+    to: "/contact"
   }, "Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "footer-item",
-    to: "/contact/examples",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
+    to: "/contact/examples"
   }, "Form Examples"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "footer-item",
-    to: "/resource",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
+    to: "/resource"
   }, "Resources")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-end",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
+    className: "footer-end"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "footer-item",
     href: "https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate",
     target: "_blank",
-    rel: "noopener noreferrer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
+    rel: "noopener noreferrer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
+    className: "icon"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _img_github_icon_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
-    alt: "Github",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
+    alt: "Github"
   }))))));
 };
 
@@ -19601,13 +19486,19 @@ var _default = Footer;
     return;
   }
 
-  reactHotLoader.register(Footer, "Footer", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Footer.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Footer.js");
+  reactHotLoader.register(Footer, "Footer", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Footer.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Footer.js");
   leaveModule(module);
 })();
 
 ;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(6)(module)))
+
+/***/ }),
+/* 152 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTA5IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpmaWdtYT0iaHR0cDovL3d3dy5maWdtYS5jb20vZmlnbWEvbnMiPjx0aXRsZT5Mb2dvPC90aXRsZT48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTQ3MCkiIGZpZ21hOnR5cGU9ImNhbnZhcyI+PGcgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIgZmlnbWE6dHlwZT0idmVjdG9yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDcwKSIgZmlsbD0iI2Y0MCI+PHVzZSB4bGluazpocmVmPSIjYiIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIvPjx1c2UgeGxpbms6aHJlZj0iI2MiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpub3JtYWwiLz48dXNlIHhsaW5rOmhyZWY9IiNkIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6bm9ybWFsIi8+PHVzZSB4bGluazpocmVmPSIjZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm5vcm1hbCIvPjx1c2UgeGxpbms6aHJlZj0iI2YiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTpub3JtYWwiLz48L2c+PC9nPjxkZWZzPjxwYXRoIGlkPSJiIiBkPSJNMjIuNzM1IDIzLjE3MWMuMjgzLjMyMy4wNTMuODI5LS4zNzYuODI5aC01LjkwN2MtLjI4NSAwLS41NTYtLjEyMS0uNzQ1LS4zMzNsLTkuNDE0LTEwLjUyNnYxMC4zNmMwIC4yNzYtLjIyNC41LS41LjVoLTUuMjkzYy0uMjc2IDAtLjUtLjIyNC0uNS0uNXYtMjNjMC0uMjc2LjIyNC0uNS41LS41aDUuMjkzYy4yNzYgMCAuNS4yMjQuNS41djkuODE1bDkuMTQxLTkuOTljLjE5LS4yMDcuNDU3LS4zMjUuNzM4LS4zMjVoNS43NjJjLjQzNyAwIC42NjQuNTIxLjM2Ni44NDFsLTkuODUxIDEwLjU2MyAxMC4yODcgMTEuNzY3eiIvPjxwYXRoIGlkPSJjIiBkPSJNNDUuOTkxIDI0Yy0uMTk5IDAtLjM4LS4xMTgtLjQ1OS0uMzAxbC0yLjAyNC00LjY2OWgtMTAuNjdsLTIuMDI0IDQuNjY5Yy0uMDc5LjE4My0uMjU5LjMwMS0uNDU5LjMwMWgtNS4yMTJjLS4zNjYgMC0uNjA4LS4zODEtLjQ1My0uNzEybDEwLjc4Mi0yM2MuMDgyLS4xNzYuMjU5LS4yODguNDUzLS4yODhoNC4zNThjLjE5NCAwIC4zNy4xMTIuNDUzLjI4N2wxMC44MTUgMjNjLjE1Ni4zMzItLjA4Ni43MTMtLjQ1Mi43MTNoLTUuMTA4em0tMTEuMTM1LTkuNjY4aDYuNjM1bC0zLjMxNy03LjY5NC0zLjMxNyA3LjY5NHoiLz48cGF0aCBpZD0iZCIgZD0iTTU1LjUyNSAyNGMtLjI3NiAwLS41LS4yMjQtLjUtLjV2LTIzYzAtLjI3Ni4yMjQtLjUuNS0uNWg1LjI5M2MuMjc2IDAgLjUuMjI0LjUuNXYxOC40MjhoOS43NTljLjI3NiAwIC41LjIyNC41LjV2NC4wNzJjMCAuMjc2LS4yMjQuNS0uNS41aC0xNS41NTJ6Ii8+PHBhdGggaWQ9ImUiIGQ9Ik03NS4yNzkuNWMwLS4yNzYuMjI0LS41LjUtLjVoOS4zMTVjMi42NjcgMCA0Ljk1OS40NzcgNi44NzQgMS40MyAxLjkzOC45NTMgMy40MiAyLjMzOCA0LjQ0NiA0LjE1MyAxLjAyNiAxLjc5MyAxLjUzOSAzLjkyNiAxLjUzOSA2LjQgMCAyLjQ5Ni0uNTEzIDQuNjUyLTEuNTM5IDYuNDY4LTEuMDAzIDEuNzkzLTIuNDc0IDMuMTY2LTQuNDEyIDQuMTE5LTEuOTE1Ljk1My00LjIxOCAxLjQzLTYuOTA4IDEuNDNoLTkuMzE1Yy0uMjc2IDAtLjUtLjIyNC0uNS0uNXYtMjN6bTkuMzcgMTguNDYyYzIuMzcxIDAgNC4xMzgtLjU3OSA1LjMwMS0xLjczNiAxLjE2My0xLjE1NyAxLjc0NC0yLjkwNSAxLjc0NC01LjI0MiAwLTIuMzM4LS41ODEtNC4wNzQtMS43NDQtNS4yMDktMS4xNjMtMS4xNTctMi45My0xLjczNi01LjMwMS0xLjczNmgtMy4wNzh2MTMuOTIzaDMuMDc4eiIvPjxwYXRoIGlkPSJmIiBkPSJNMTAyLjkxMyAyNGMtLjI3NiAwLS41LS4yMjQtLjUtLjV2LTIzYzAtLjI3Ni4yMjQtLjUuNS0uNWg1LjI5M2MuMjc2IDAgLjUuMjI0LjUuNXYyM2MwIC4yNzYtLjIyNC41LS41LjVoLTUuMjkzeiIvPjwvZGVmcz48L3N2Zz4K"
 
 /***/ }),
 /* 153 */
@@ -19671,9 +19562,9 @@ var _default = Content;
     return;
   }
 
-  reactHotLoader.register(HTMLContent, "HTMLContent", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Content.js");
-  reactHotLoader.register(Content, "Content", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Content.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Content.js");
+  reactHotLoader.register(HTMLContent, "HTMLContent", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Content.js");
+  reactHotLoader.register(Content, "Content", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Content.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Content.js");
   leaveModule(module);
 })();
 
@@ -19691,8 +19582,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_blog_post__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(156);
-var _jsxFileName = "/home/john/Documents/Projects/gitlab/peronalsite/src/cms/preview-templates/BlogPostPreview.js";
-
 (function () {
   var enterModule = __webpack_require__(7).enterModule;
 
@@ -19710,12 +19599,7 @@ var BlogPostPreview = function BlogPostPreview(_ref) {
     content: widgetFor('body'),
     description: entry.getIn(['data', 'description']),
     tags: entry.getIn(['data', 'tags']),
-    title: entry.getIn(['data', 'title']),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+    title: entry.getIn(['data', 'title'])
   });
 };
 
@@ -19738,8 +19622,8 @@ var _default = BlogPostPreview;
     return;
   }
 
-  reactHotLoader.register(BlogPostPreview, "BlogPostPreview", "/home/john/Documents/Projects/gitlab/peronalsite/src/cms/preview-templates/BlogPostPreview.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/cms/preview-templates/BlogPostPreview.js");
+  reactHotLoader.register(BlogPostPreview, "BlogPostPreview", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/cms/preview-templates/BlogPostPreview.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/cms/preview-templates/BlogPostPreview.js");
   leaveModule(module);
 })();
 
@@ -19857,10 +19741,10 @@ var pageQuery = "1562462377";
     return;
   }
 
-  reactHotLoader.register(BlogPostTemplate, "BlogPostTemplate", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/blog-post.js");
-  reactHotLoader.register(BlogPost, "BlogPost", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/blog-post.js");
-  reactHotLoader.register(pageQuery, "pageQuery", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/blog-post.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/blog-post.js");
+  reactHotLoader.register(BlogPostTemplate, "BlogPostTemplate", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/blog-post.js");
+  reactHotLoader.register(BlogPost, "BlogPost", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/blog-post.js");
+  reactHotLoader.register(pageQuery, "pageQuery", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/blog-post.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/blog-post.js");
   leaveModule(module);
 })();
 
@@ -36984,8 +36868,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _templates_product_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(159);
-var _jsxFileName = "/home/john/Documents/Projects/gitlab/peronalsite/src/cms/preview-templates/ProductPagePreview.js";
-
 (function () {
   var enterModule = __webpack_require__(7).enterModule;
 
@@ -37035,12 +36917,7 @@ var ProductPagePreview = function ProductPagePreview(_ref) {
       heading: entry.getIn(['data', 'pricing', 'heading']),
       description: entry.getIn(['data', 'pricing', 'description']),
       plans: pricingPlans
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
+    }
   });
 };
 
@@ -37063,8 +36940,8 @@ var _default = ProductPagePreview;
     return;
   }
 
-  reactHotLoader.register(ProductPagePreview, "ProductPagePreview", "/home/john/Documents/Projects/gitlab/peronalsite/src/cms/preview-templates/ProductPagePreview.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/cms/preview-templates/ProductPagePreview.js");
+  reactHotLoader.register(ProductPagePreview, "ProductPagePreview", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/cms/preview-templates/ProductPagePreview.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/cms/preview-templates/ProductPagePreview.js");
   leaveModule(module);
 })();
 
@@ -37250,10 +37127,10 @@ var productPageQuery = "2855502059";
     return;
   }
 
-  reactHotLoader.register(ProductPageTemplate, "ProductPageTemplate", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/product-page.js");
-  reactHotLoader.register(ProductPage, "ProductPage", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/product-page.js");
-  reactHotLoader.register(productPageQuery, "productPageQuery", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/product-page.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/templates/product-page.js");
+  reactHotLoader.register(ProductPageTemplate, "ProductPageTemplate", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/product-page.js");
+  reactHotLoader.register(ProductPage, "ProductPage", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/product-page.js");
+  reactHotLoader.register(productPageQuery, "productPageQuery", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/product-page.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/templates/product-page.js");
   leaveModule(module);
 })();
 
@@ -37323,8 +37200,8 @@ var _default = FeatureGrid;
     return;
   }
 
-  reactHotLoader.register(FeatureGrid, "FeatureGrid", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Features.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Features.js");
+  reactHotLoader.register(FeatureGrid, "FeatureGrid", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Features.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Features.js");
   leaveModule(module);
 })();
 
@@ -37408,8 +37285,8 @@ var _default = PreviewCompatibleImage;
     return;
   }
 
-  reactHotLoader.register(PreviewCompatibleImage, "PreviewCompatibleImage", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/PreviewCompatibleImage.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/PreviewCompatibleImage.js");
+  reactHotLoader.register(PreviewCompatibleImage, "PreviewCompatibleImage", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/PreviewCompatibleImage.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/PreviewCompatibleImage.js");
   leaveModule(module);
 })();
 
@@ -37909,8 +37786,8 @@ var _default = Testimonials;
     return;
   }
 
-  reactHotLoader.register(Testimonials, "Testimonials", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Testimonials.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Testimonials.js");
+  reactHotLoader.register(Testimonials, "Testimonials", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Testimonials.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Testimonials.js");
   leaveModule(module);
 })();
 
@@ -38216,8 +38093,8 @@ var _default = Pricing;
     return;
   }
 
-  reactHotLoader.register(Pricing, "Pricing", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Pricing.js");
-  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/gitlab/peronalsite/src/components/Pricing.js");
+  reactHotLoader.register(Pricing, "Pricing", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Pricing.js");
+  reactHotLoader.register(_default, "default", "/home/john/Documents/Projects/GEOKLOWNSITE/peronalsite/src/components/Pricing.js");
   leaveModule(module);
 })();
 
