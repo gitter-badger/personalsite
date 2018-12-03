@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import github from '../img/github-icon.svg';
+import facebook from '../img/facebook.svg';
+import twitter from '../img/twitter-circle.svg';
+import linkedin from '../img/linkedin-box.svg';
 // import logo from '../img/logo.svg';
 
 const Navbar = () => (
@@ -34,6 +37,7 @@ const Navbar = () => (
           Resources
         </Link>
       </div>
+
       <div className="navbar-end">
         <a
           className="navbar-item"
@@ -42,7 +46,27 @@ const Navbar = () => (
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={github} alt="Github" />
+            <img src={twitter} alt="Github" />
+          </span>
+        </a>
+        <a
+          className="navbar-item"
+          href="https://github.com/geoklown"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="icon">
+            <img src={linkedin} alt="Github" />
+          </span>
+        </a>
+        <a
+          className="navbar-item"
+          href="https://github.com/geoklown"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="icon">
+            <img src={facebook} alt="Github" />
           </span>
         </a>
         <a
