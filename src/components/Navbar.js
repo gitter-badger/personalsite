@@ -14,7 +14,7 @@ const Navbar = () => (
           {/* <figure className="image">
             <img src={logo} alt="John Junkins" style={{ width: '120px', height: `88px` }} />
           </figure> */}
-          <h1 class="has-text-weight-bold is-size-2">John Junkins</h1>
+          <h1 className="has-text-weight-bold is-size-2">John Junkins</h1>
         </Link>
       </div>
       <div className="navbar-start">
