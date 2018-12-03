@@ -12,19 +12,20 @@ const Footer = () => (
         <Link className="footer-item" to="/about">
           About
         </Link>
-        <Link className="footer-item" to="/products">
+        <Link className="footer-item" to="/services">
           Services
+        </Link>
+        <Link className="footer-item" to="/products">
+          Products
         </Link>
         <Link className="footer-item" to="/contact">
           Contact
-        </Link>
-        <Link className="footer-item" to="/contact/examples">
-          Form Examples
         </Link>
         <Link className="footer-item" to="/resource">
           Resources
         </Link>
       </div>
+      <div className="copywrite">&copy; John Junkins 2018</div>
       <div className="footer-end" />
     </div>
   </footer>
