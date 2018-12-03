@@ -1,15 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import github from '../img/github-icon.svg';
-import logo from '../img/logo.svg';
 const Footer = () => (
   <footer className="footer is-transparent">
     <div className="container">
       <div className="footer-brand">
         <Link to="/" className="footer-item">
-          <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-          </figure>
+          <h1>Big Business Tech Small Business Budget</h1>
         </Link>
       </div>
       <div className="footer-start">
@@ -29,18 +25,7 @@ const Footer = () => (
           Resources
         </Link>
       </div>
-      <div className="footer-end">
-        <a
-          className="footer-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
-        </a>
-      </div>
+      <div className="footer-end" />
     </div>
   </footer>
 );
