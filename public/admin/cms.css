@@ -5134,7 +5134,7 @@ label.panel-block {
     font-size: 1.5rem; }
 
 .footer {
-  background-color: white;
+  background-color: #ff3860;
   min-height: 3.25rem;
   position: relative;
   z-index: 30; }
@@ -5706,7 +5706,7 @@ a.footer-item,
   .footer-link::after {
     display: none; }
   .footer-menu {
-    background-color: white;
+    background-color: #ff3860;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
     .footer-menu.is-active {
