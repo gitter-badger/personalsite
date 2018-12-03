@@ -25,7 +25,7 @@ const Footer = () => (
           Resources
         </Link>
       </div>
-      <div className="copywrite">&copy; John Junkins 2018</div>
+      <div className="">&copy; John Junkins 2018</div>
       <div className="footer-end" />
     </div>
   </footer>

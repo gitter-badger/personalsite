@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "15393c2fe75f3c6aaa50";
+/******/ 	var hotCurrentHash = "1185e8dfaf03aaf38e4b";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -8057,14 +8057,14 @@ var Navbar = function Navbar() {
     className: "has-text-weight-bold is-size-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 14
     },
     __self: this
   }, "John Junkins"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "navbar-start",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -8072,7 +8072,7 @@ var Navbar = function Navbar() {
     to: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 18
     },
     __self: this
   }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -8080,7 +8080,7 @@ var Navbar = function Navbar() {
     to: "/services",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 21
     },
     __self: this
   }, "Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -8088,7 +8088,7 @@ var Navbar = function Navbar() {
     to: "/products",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 24
     },
     __self: this
   }, "Products"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -8096,30 +8096,22 @@ var Navbar = function Navbar() {
     to: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 27
     },
     __self: this
   }, "Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "navbar-item",
-    to: "/contact/examples",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "Form Examples"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    className: "navbar-item",
     to: "/resource",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 30
     },
     __self: this
   }, "Resources")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "navbar-end",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -8129,14 +8121,14 @@ var Navbar = function Navbar() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -8144,7 +8136,7 @@ var Navbar = function Navbar() {
     alt: "Github",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 43
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -8154,14 +8146,14 @@ var Navbar = function Navbar() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 52
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -8169,7 +8161,7 @@ var Navbar = function Navbar() {
     alt: "Github",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 53
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -8179,14 +8171,14 @@ var Navbar = function Navbar() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -8194,7 +8186,7 @@ var Navbar = function Navbar() {
     alt: "Github",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 63
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -8204,14 +8196,14 @@ var Navbar = function Navbar() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 66
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -8219,7 +8211,7 @@ var Navbar = function Navbar() {
     alt: "Github",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 73
     },
     __self: this
   }))))));
@@ -19549,7 +19541,7 @@ var Footer = function Footer() {
     __self: this
   }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "footer-item",
-    to: "/products",
+    to: "/services",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -19557,21 +19549,21 @@ var Footer = function Footer() {
     __self: this
   }, "Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "footer-item",
-    to: "/contact",
+    to: "/products",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, "Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }, "Products"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "footer-item",
-    to: "/contact/examples",
+    to: "/contact",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, "Form Examples"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }, "Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "footer-item",
     to: "/resource",
     __source: {
@@ -19580,10 +19572,17 @@ var Footer = function Footer() {
     },
     __self: this
   }, "Resources")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-end",
+    className: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
+    },
+    __self: this
+  }, "\xA9 John Junkins 2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footer-end",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
     },
     __self: this
   })));

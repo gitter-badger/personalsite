@@ -11,9 +11,6 @@ const Navbar = () => (
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          {/* <figure className="image">
-            <img src={logo} alt="John Junkins" style={{ width: '120px', height: `88px` }} />
-          </figure> */}
           <h1 className="has-text-weight-bold is-size-2">John Junkins</h1>
         </Link>
       </div>
@@ -30,9 +27,6 @@ const Navbar = () => (
         <Link className="navbar-item" to="/contact">
           Contact
         </Link>
-        {/* <Link className="navbar-item" to="/contact/examples">
-          Form Examples
-        </Link> */}
         <Link className="navbar-item" to="/resource">
           Resources
         </Link>
