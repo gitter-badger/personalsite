@@ -12,7 +12,7 @@
     "gatsby-plugin-netlify-cms": "next",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-sass": "next",
-    "gatsby-plugin-sharp": "next",
+    "gatsby-plugin-sharp": "^2.0.14",
     "gatsby-remark-images": "next",
     "gatsby-remark-relative-images": "^0.2.0",
     "gatsby-source-filesystem": "next",
