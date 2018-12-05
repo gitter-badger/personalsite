@@ -7490,10 +7490,8 @@ var Footer = function Footer() {
     className: "footer-item",
     to: "/resource"
   }, "Resources")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: ""
-  }, "\xA9 John Junkins 2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer-end"
-  })));
+  }, "\xA9 John Junkins 2018")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
