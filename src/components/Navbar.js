@@ -35,32 +35,32 @@ const Navbar = () => (
       <div className="navbar-end">
         <a
           className="navbar-item"
-          href="https://github.com/geoklown"
+          href="https://twitter.com/junkins_john"
           target="_blank"
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={twitter} alt="Github" />
+            <img src={twitter} alt="Twitter" />
           </span>
         </a>
         <a
           className="navbar-item"
-          href="https://github.com/geoklown"
+          href="https://www.linkedin.com/in/john-junkins-346b1b80/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={linkedin} alt="Github" />
+            <img src={linkedin} alt="Linkedin" />
           </span>
         </a>
         <a
           className="navbar-item"
-          href="https://github.com/geoklown"
+          href="https://www.facebook.com/john.junkins"
           target="_blank"
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={facebook} alt="Github" />
+            <img src={facebook} alt="Facebook" />
           </span>
         </a>
         <a
