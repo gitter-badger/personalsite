@@ -5,13 +5,24 @@ import facebook from '../img/facebook.svg';
 import twitter from '../img/twitter-circle.svg';
 import linkedin from '../img/linkedin-box.svg';
 // import logo from '../img/logo.svg';
+import logo from '../img/junkinsweblogoV6.png';
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          <h1 className="has-text-weight-bold is-size-2">John Junkins</h1>
+          {/* <h1 className="has-text-weight-bold is-size-2">John Junkins</h1> */}
+          <a
+            className="navbar-logo"
+            href="https://twitter.com/junkins_john"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="image is-96x96">
+              <img src={logo} alt="Twitter" />
+            </span>
+          </a>
         </Link>
       </div>
       <div className="navbar-start">

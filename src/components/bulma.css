@@ -3931,7 +3931,7 @@ a.list-item {
   padding: 20px; }
 
 .navbar {
-  background-color: #3273dc;
+  background-color: white;
   min-height: 3.25rem;
   position: relative;
   z-index: 30; }
@@ -4440,7 +4440,7 @@ a.navbar-item,
   flex-grow: 0;
   flex-shrink: 0; }
   .navbar-item img {
-    max-height: 1.75rem; }
+    max-height: 6rem; }
   .navbar-item.has-dropdown {
     padding: 0; }
   .navbar-item.is-expanded {
@@ -4500,7 +4500,7 @@ a.navbar-item,
     display: none; }
 
   .navbar-menu {
-    background-color: #3273dc;
+    background-color: white;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
     .navbar-menu.is-active {
@@ -4995,7 +4995,7 @@ label.panel-block {
     font-size: 1.5rem; }
 
 .footer {
-  background-color: #3273dc;
+  background-color: #fafafa;
   min-height: 3.25rem;
   position: relative;
   z-index: 30; }
@@ -5564,7 +5564,7 @@ a.footer-item,
     display: none; }
 
   .footer-menu {
-    background-color: #3273dc;
+    background-color: #fafafa;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
     .footer-menu.is-active {
@@ -7416,7 +7416,7 @@ a.footer-item,
       padding: 18rem 1.5rem; } }
 
 .footer {
-  background-color: #3273dc;
+  background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
 /*# sourceMappingURL=bulma.css.map */
