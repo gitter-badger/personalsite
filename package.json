@@ -5,6 +5,8 @@
   "author": "John Junkins",
   "dependencies": {
     "bulma": "^0.7.0",
+    "curl": "^0.1.4",
+    "emotion": "^9.2.6",
     "gatsby": "^2.0.0",
     "gatsby-cli": "^2.4.6",
     "gatsby-image": "next",
@@ -18,15 +20,25 @@
     "gatsby-source-filesystem": "next",
     "gatsby-transformer-remark": "next",
     "gatsby-transformer-sharp": "next",
+    "immutable": "^3.8.2",
     "lodash": "^4.17.5",
     "lodash-webpack-plugin": "^0.11.4",
+    "moment": "^2.22.2",
     "netlify-cms": "^2.1.1",
+    "netlify-cms-lib-auth": "^2.0.5",
+    "netlify-cms-lib-util": "^2.0.0",
+    "netlify-cms-ui-default": "^2.0.0",
     "node-sass": "^4.9.2",
     "parcel-bundler": "^1.9.4",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.4.1",
+    "react-emotion": "^9.2.6",
     "react-helmet": "^5.2.0",
+    "react-immutable-proptypes": "^2.1.0",
+    "slate": "^0.33.3",
+    "slate-prop-types": "0.4.67",
+    "slate-schema-violations": "^0.1.7",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "uuid": "^3.2.1",
     "webpack": "^4.8.3"
@@ -49,10 +61,7 @@
     "prettier": "^1.7.4",
     "rimraf": "^2.6.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com:geoklown/personalsite.git"
-  },
+  "repository": "git+ssh://git@gitlab.com:geoklown/personalsite.git",
   "bugs": {
     "url": "https://gitlab.com/geoklown/personalsite/issues"
   },
