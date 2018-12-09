@@ -2,7 +2,7 @@
 templateKey: 'product-page'
 path: /products
 title: Our Coffee
-image: /images/jumbotron.png
+image: /images/flavor_wheel.jpg
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -11,14 +11,14 @@ description: >-
   anyone.
 intro:
   blurbs:
-    - image: /images/coffee.png
+    - image: /images/family.jpg
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
         variety of coffee beans grown with great care for the environment and
         local communities. Check our post or contact us directly for current
         availability.
-    - image: /images/coffee-gear.png
+    - image: /images/family.jpg
       text: >
         We offer a small, but carefully curated selection of brewing gear and
         tools for every taste and experience level. No matter if you roast your
