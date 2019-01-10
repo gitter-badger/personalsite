@@ -8,7 +8,7 @@ title: About our values
 Need blurb [Case Study](#)
 
 ### Google G suite System Administration
-
+<!-- TODO: -->
 I can also leverage my history of developing and intergrating Business Operations tools into any existing organizational workflow. My personal preference tends towards a suite of tools offered by Google. Simple to use, simple to learn, replicatable expierenences for the entire team at a price point that is best in the market. [Case Study](#)
 
 ### SEO and Web Marketing
