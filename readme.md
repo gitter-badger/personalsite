@@ -7,3 +7,5 @@ I made this project to create personal site for myself including blogging and br
 ## Lessons Learned
 
 1. No such repository in git?
+2. Maybe found the solution
+<!-- TODO: I don't know what I am doing-->
