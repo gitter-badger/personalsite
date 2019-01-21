@@ -1,10 +1,9 @@
 import React from "react";
 import { navigateTo } from "gatsby-link";
 import Layout from '../../components/Layout'
-
 function encode(data) {
   const formData = new FormData();
-
+// TODO: Decide what to do with File Upload Page
   for (const key of Object.keys(data)) {
     formData.append(key, data[key]);
   }

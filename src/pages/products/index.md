@@ -5,12 +5,14 @@ title: Our Coffee
 image: /images/flavor_wheel.jpg
 heading: What we offer
 description: >-
+# TODO: Write Product Offered Page 
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
 intro:
   blurbs:
+  # TODO: find and add images for Product Page
     - image: /images/family.jpg
       text: >
         We sell green and roasted coffee beans that are sourced directly from

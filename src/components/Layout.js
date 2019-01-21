@@ -8,6 +8,7 @@ import './bulma.css';
 
 const TemplateWrapper = ({ children }) => (
   <div>
+    {/* TODO: rename to Site Domain */}
     <Helmet title="Gitlab Netlifly Test Site" />
     <Navbar />
     <div>{children}</div>

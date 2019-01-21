@@ -3,7 +3,7 @@ templateKey: about-page
 title: About Me
 ---
 # Freelance Web Developer
-
+<!-- TODO: Rewrite -->
 I like to build useful things for the internet. There has never been a better opportunity for people to pursue the goals online. Whether this is the next big thing that will change the world. Or a simple Mom and Pop brochure Website. Those small websites and the people working in those business are what makes the world go around.
 
 ## Open Source Advocate
