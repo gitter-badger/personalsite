@@ -2,5 +2,5 @@ node_modules
 .cache/
 .vscode
 public
-TODO
-.vs/
+.vs
+
