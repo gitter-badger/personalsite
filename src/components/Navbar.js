@@ -14,6 +14,7 @@ const Navbar = () => (
         <Link to="/" className="navbar-item">
           {/* <h1 className="has-text-weight-bold is-size-2">John Junkins</h1> */}
           <a
+          // TODO: add Logo from Madison
             className="navbar-logo"
             href="https://twitter.com/junkins_john"
             target="_blank"

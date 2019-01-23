@@ -3,7 +3,7 @@ templateKey: 'resource-page'
 path: /resource
 title: resource our values
 ---
-
+<!-- TODO: Add some links for Resources Pages Preferably to Affiliates and or Networks -->
 ### Shade-grown coffee
 
 This works today but not yesterday?

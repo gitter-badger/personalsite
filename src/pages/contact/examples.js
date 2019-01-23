@@ -9,6 +9,7 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
+            <!-- TODO: Rewrite -->
               <h1>Hi people</h1>
               <p>I don't like react</p>
               <ul>

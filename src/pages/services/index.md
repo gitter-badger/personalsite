@@ -4,11 +4,18 @@ title: About our values
 ---
 
 ### Web Design and development
+<!-- TODO: Blurb about web development -->
 
-Need blurb [Case Study](#)
+ [Case Study](#)
+
+### Microsoft 365 System Administration
+<!-- TODO: Need Blurb  -->
+
+[Case Stydy](#)
 
 ### Google G suite System Administration
-
+<!-- TODO: Reavaluate the need to add a service page This could just be the product Page -->
+<!-- IDEA: The services page needs to be inclusive of the network of Providers I have available  -->
 I can also leverage my history of developing and intergrating Business Operations tools into any existing organizational workflow. My personal preference tends towards a suite of tools offered by Google. Simple to use, simple to learn, replicatable expierenences for the entire team at a price point that is best in the market. [Case Study](#)
 
 ### SEO and Web Marketing
